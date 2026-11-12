@@ -1,0 +1,37 @@
+.DS_Store
+*.py[cod]
+__pycache__/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.log
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.app/
+
+# Generated model export intermediates
+*.mlpackage/
+
+# Model weights and exports require a separate redistribution review
+*.pt
+*.onnx
+*.mlmodelc/
+*.mlpackage/
+
+# Sample and research images require sharing permission
+*.jpg
+*.jpeg
+*.png

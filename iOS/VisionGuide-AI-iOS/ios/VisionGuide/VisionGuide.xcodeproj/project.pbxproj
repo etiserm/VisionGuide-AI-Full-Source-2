@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000001 /* VisionGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* VisionGuideApp.swift */; };
+		B00000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* ContentView.swift */; };
+		B00000000000000000000003 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* CameraManager.swift */; };
+		B00000000000000000000004 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* CameraPreview.swift */; };
+		B00000000000000000000005 /* FrameProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* FrameProcessor.swift */; };
+		B00000000000000000000006 /* ObjectDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* ObjectDetection.swift */; };
+		B00000000000000000000007 /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* SpeechController.swift */; };
+		B00000000000000000000009 /* Models/VisionGuideClasses.json in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* Models/VisionGuideClasses.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* VisionGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = VisionGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000002 /* VisionGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionGuideApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* FrameProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameProcessor.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* ObjectDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetection.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* SpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechController.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00000000000000000000011 /* Models/VisionGuideClasses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Models/VisionGuideClasses.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00000000000000000000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000002 /* VisionGuideApp.swift */,
+				A00000000000000000000003 /* ContentView.swift */,
+				A00000000000000000000004 /* CameraManager.swift */,
+				A00000000000000000000005 /* CameraPreview.swift */,
+				A00000000000000000000006 /* FrameProcessor.swift */,
+				A00000000000000000000007 /* ObjectDetection.swift */,
+				A00000000000000000000008 /* SpeechController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000002 /* . */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000009 /* Info.plist */,
+				A00000000000000000000011 /* Models/VisionGuideClasses.json */,
+				C00000000000000000000001 /* Sources */,
+			);
+			path = .;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* VisionGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000002 /* . */,
+				C00000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00000000000000000000001 /* VisionGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00000000000000000000002 /* Build configuration list for PBXNativeTarget "VisionGuide" */;
+			buildPhases = (
+				D00000000000000000000002 /* Sources */,
+				D00000000000000000000003 /* Frameworks */,
+				D00000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionGuide;
+			productName = VisionGuide;
+			productReference = A00000000000000000000001 /* VisionGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00000000000000000000005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D00000000000000000000001 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = E00000000000000000000001 /* Build configuration list for PBXProject "VisionGuide" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00000000000000000000004;
+			productRefGroup = C00000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00000000000000000000001 /* VisionGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000009 /* Models/VisionGuideClasses.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000001 /* VisionGuideApp.swift in Sources */,
+				B00000000000000000000002 /* ContentView.swift in Sources */,
+				B00000000000000000000003 /* CameraManager.swift in Sources */,
+				B00000000000000000000004 /* CameraPreview.swift in Sources */,
+				B00000000000000000000005 /* FrameProcessor.swift in Sources */,
+				B00000000000000000000006 /* ObjectDetection.swift in Sources */,
+				B00000000000000000000007 /* SpeechController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN8BUNX4TT;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.visionguide.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN8BUNX4TT;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.visionguide.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00000000000000000000001 /* Build configuration list for PBXProject "VisionGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000001 /* Debug */,
+				F00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00000000000000000000002 /* Build configuration list for PBXNativeTarget "VisionGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000003 /* Debug */,
+				F00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00000000000000000000005 /* Project object */;
+}
